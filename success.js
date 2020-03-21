@@ -6,10 +6,10 @@ window.onload=function(){
     }, 1500);
     setTimeout(() => {
         document.getElementById("content").style.opacity=1
-    }, 3800);
+    }, 4200);
     setTimeout(() => {
         document.getElementById("tobe").style="left:10px;opacity:1;"
-    }, 5000);
+    }, 5500);
     setTimeout(() => {
         let img = document.getElementsByTagName("img")//.style = "filter: grayscale(100%);-webkit-filter: grayscale(100%);"
         for(let i of img){
@@ -32,10 +32,10 @@ window.onload=function(){
         // Twenty four before my love you'll see/n \
         // I'll be there with you"
         // lyric = lyric.split("/n")
-    }, 6500);
+    }, 7000);
     setTimeout(() => {
         document.getElementById("thanks").style="opacity:1;"
         document.getElementById("by").style="opacity:1;"
         document.getElementById("tips").style="opacity:1;"
-    }, 7000);
+    }, 7500);
 }

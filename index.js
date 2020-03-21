@@ -85,7 +85,7 @@ window.onload=function(){
         let fire = document.getElementsByClassName("fireOfXHL")
         if(fire.length>0){
             if(Math.abs(shijun.offsetLeft-480)<80){
-                shijun.hp-=5
+                shijun.hp-=10
                 // this.clearInterval(check)
             }
         }

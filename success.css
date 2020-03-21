@@ -57,8 +57,8 @@ img{
     width: 150px;
     left: 810px;
     top:510px;
-    transition: left .7s ease-in, opacity 0.5s ease-in;
-    -webkit-transition: left .7s ease-in, opacity 0.5s ease-in;
+    transition: left .3s ease-in, opacity 0.2s ease-in;
+    -webkit-transition: left .3s ease-in, opacity 0.2s ease-in;
 }
 #thanks{
     position: absolute;
