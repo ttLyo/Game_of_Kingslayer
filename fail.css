@@ -1,0 +1,26 @@
+.title{
+    text-align: center;
+}
+img{
+    position: absolute;
+}
+#shijun{
+    transform: rotate(80deg);
+    left:50%;
+    top:45%
+}
+#red{
+    left:50%;
+    width: 150px;
+}
+#caltsit{
+    width: 150px;
+    left:30%;
+    top:35%
+}
+#rery{
+    position: absolute;
+    left:64%;
+    top:59%
+
+}

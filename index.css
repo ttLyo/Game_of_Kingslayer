@@ -1,0 +1,112 @@
+/* 旋转变色 */
+@keyframes aniShijun
+{
+    0% {background-color: red;transform:rotate(0deg)}
+    25% {background-color: yellow;transform:rotate(120deg)}
+    50% {background-color: green;transform:rotate(240deg)}
+    100% {background-color: blue;transform:rotate(360deg)}
+}
+@-webkit-keyframes aniShijun /* Safari 与 Chrome */
+{
+    0% {background-color: red;transform:rotate(0deg)}
+    25% {background-color: yellow;transform:rotate(120deg)}
+    50% {background-color: green;transform:rotate(240deg)}
+    100% {background-color: blue;transform:rotate(360deg)}
+}
+/* 塞妈位移 */
+@keyframes aniSaima
+{
+    from {top: o;}
+    to {top: 500px;}
+}
+@-webkit-keyframes aniSaima /* Safari 与 Chrome */
+{
+    from {top: o;}
+    to {top: 500px;}
+}
+/* 小火龙喷火 */
+@keyframes fire
+{
+    0% {background-color: red;}
+    50% {background-color: yellow;}
+    100% {background-color: white;}
+}
+@-webkit-keyframes fire /* Safari 与 Chrome */
+{
+    0% {background-color: red;}
+    50% {background-color: yellow;}
+    100% {background-color: white;}
+}
+/* 白金射箭 */
+@keyframes jian
+{
+    0% {left: 800px;}
+    100% {left: 200px;}
+}
+@-webkit-keyframes jian /* Safari 与 Chrome */
+{
+    0% {left: 800px;}
+    100% {left: 200px;}
+}
+.image{
+    position: absolute;
+}
+#shijun{
+    width: 80px;
+    padding: 10px;
+    border-radius: 10px;;
+    /* 移动效果更顺滑  但是不舒服 */
+    /* transition: left .2s linear,top .2s linear;
+    -webkit-transition: left .2s linear,top .2s linear; */
+}
+#shijun img{
+    width: 80px;
+}
+#hp{
+    text-align: center;
+}
+#saima{
+    width: 80px;
+    top:0;
+    left: 700px;
+    animation: aniSaima 2s linear infinite alternate;
+	-webkit-animation:aniSaima 2s linear infinite alternate; 
+}
+#baijin{
+    width: 80px;
+    top:150px;
+    left: 800px;
+}
+.jian{
+    transform: rotate(90deg);
+    width: 15px;
+    height: 70px;
+    left:750px;
+    top:150px;
+    animation: jian 2s linear;
+    -webkit-animation: jian 2s linear;
+}
+#xhl{
+    top:10px;
+    left: 500px;
+}
+.fireOfXHL{
+    top:120px;
+    left: 500px;
+    width: 80px;
+    height: 430px;
+    animation: fire 2s linear;
+    -webkit-animation: fire 2s linear;
+}
+.shield{
+
+}
+#in{
+    top:100px;
+    left: 50px;
+    width: 105px;
+}
+#out{
+    top:350px;
+    left: 950px;
+}

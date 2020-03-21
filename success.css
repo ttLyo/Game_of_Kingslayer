@@ -1,0 +1,84 @@
+/* 文字显现 */
+@keyframes show
+{
+    0% {opacity: 0}
+    100% {opacity: 1}
+}
+@-webkit-keyframes show /* Safari 与 Chrome */
+{
+    0% {opacity: 0}
+    100% {opacity: 1}
+}
+body{
+    
+/* filter: grayscale(100%);
+-webkit-filter: grayscale(100%); */
+}
+#title1{
+    opacity: 0;
+    transition: opacity 3s;
+    -webkit-transition: opacity 3s;
+}
+#title2{
+    opacity: 0;
+    transition: opacity 3s;
+    -webkit-transition: opacity 3s;
+}
+#content{
+    opacity: 0;
+    transition: opacity 2s;
+    -webkit-transition: opacity 2s;
+}
+img{
+    position: absolute;
+}
+#hollow{
+    width: 130px;
+    left: 150px;
+    top:200px;
+}
+#shijun{
+    left: 300px;
+    top:200px;
+}
+#out{
+    width: 110px;
+    left: 300px;
+    top:350px;
+    transform: rotate(270deg);
+}
+#shaw{
+    width: 110px;
+    left: 460px;
+    top:150px;
+}
+#tobe{
+    opacity: 0;
+    width: 150px;
+    left: 810px;
+    top:510px;
+    transition: left .7s ease-in, opacity 0.5s ease-in;
+    -webkit-transition: left .7s ease-in, opacity 0.5s ease-in;
+}
+#thanks{
+    position: absolute;
+    left: 810px;
+    top:210px;
+    opacity: 0;
+    transition: opacity 1s;
+    -webkit-transition: opacity 1s;
+}
+#by{
+    position: absolute;
+    left: 850px;
+    top:250px;
+    opacity: 0;
+    transition: opacity .5s;
+    -webkit-transition: opacity .5s;
+}
+#tips{
+    opacity: 0;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
