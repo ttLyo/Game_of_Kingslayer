@@ -48,6 +48,10 @@
     0% {left: 800px;}
     100% {left: 200px;}
 }
+body{
+    height: 500px;
+    border: 2px dotted;
+}
 .image{
     position: absolute;
 }

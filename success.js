@@ -19,7 +19,7 @@ window.onload=function(){
         //本想显示歌词的但是不好玩就算了
         // let lyric = "I'll be the roundabout/n \
         // The words will make you out and out/n \
-        // And spend the day your way/n \
+        // I spend the day your way/n \
         // Call it morning driving thru the sound and in and out the valley/n \
         // The music dance and sing/n \
         // They make the children really ring/n \
